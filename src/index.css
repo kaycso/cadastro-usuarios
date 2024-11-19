@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+#root,
+html {
+  @apply h-full font-sans;
+}
+
+body {
+  @apply bg-slate-600;
+}
